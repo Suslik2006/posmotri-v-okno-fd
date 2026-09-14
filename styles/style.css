@@ -73,6 +73,7 @@ ol {
   width: 100%;
   height: 100%;
   padding-left: 30px;
+  font-family: Oswald;
 }
 
 .content__list-container {
@@ -102,8 +103,8 @@ ol {
 
 .result__video {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 711px;
+  height: 386px;
   object-fit: cover;
 }
 
@@ -129,24 +130,27 @@ ol {
 }
 
 .content__video-card-description-container {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  weight: 400;
   min-width: 0;
   width: 194px;
   flex-grow: 1;
+  line-height: 1.1;
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
-  line-height: 100%;
   padding-bottom: 5px;
 }
 
 .title {
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -185,7 +189,6 @@ ol {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
   text-transform: uppercase;
   overflow: hidden;
   white-space: nowrap;
@@ -214,32 +217,39 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  position: relative;
 }
 
 .search-form__fieldset {
+  font-family: Fira Sans Condensed, sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
   border: none;
 }
+
+
 
 .search-form__label {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: fit-content;
-  gap: 15px;
+  gap: 5px;
   cursor: pointer;
 }
 
 .search-form__textfield {
-  font-family: Fira Sans Condensed;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 100%;
+  min-inline-size: 225px;
+  min-block-size: 27px;
+  border: none;
+  border-block-start: 1px solid #fff;
+  border-block-end: 1px solid #fff;
   color: #fff;
-  appearance: none;
-  border-block: 1px solid #fff;
-  border-inline: none;
+  font-family: inherit;
+  font-size: inherit;
   background-color: transparent;
+  appearance: none;
 }
 
 .search-form__textfield::placeholder {
@@ -286,7 +296,6 @@ ol {
   font-weight: 700;
   font-style: Bold;
   font-size: 18px;
-  line-height: 100%;
   align-items: center;
   cursor: pointer;
 }
@@ -322,3 +331,4 @@ ol {
 .content__list-item {
   padding: 0 3px;
 }
+
