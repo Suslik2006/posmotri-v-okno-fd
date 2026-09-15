@@ -66,7 +66,7 @@ ol {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .content__details {
@@ -112,8 +112,21 @@ ol {
   position: relative;
   flex-grow: 1;
   min-height: 0;
-  padding-top: 78px;
+  padding-top: 76px;
   padding-bottom: 16px;
+}
+
+.error {
+  width: 711px;
+  height: 386px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.error__title {
+  text-align: center;
 }
 
 .content__video-card {
@@ -193,7 +206,6 @@ ol {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding-bottom: 6px;
 }
 
 .content__video-card-description {
@@ -292,7 +304,7 @@ ol {
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 18px;
